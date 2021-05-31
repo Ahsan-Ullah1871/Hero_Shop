@@ -1,0 +1,16 @@
+.CartIcon {
+	position: relative;
+}
+.circleBadge {
+	background-color: #33c24d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+	color: white;
+	border-radius: 100px;
+	position: absolute;
+	top: -20px;
+	left: 15px;
+}

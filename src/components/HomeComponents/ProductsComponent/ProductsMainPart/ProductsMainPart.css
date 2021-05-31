@@ -1,0 +1,18 @@
+.productsPart {
+	margin-top: 200px;
+	min-height: 700px;
+}
+
+.productsHeader {
+	font-size: 30px;
+	font-weight: 700;
+}
+.special-text {
+	color: #8ba73b;
+}
+.divider {
+	margin: 0 auto;
+	width: 90%;
+	border: none;
+	border-bottom: 3px solid #3d442b;
+}

@@ -1,0 +1,17 @@
+.navPart {
+	height: 100px;
+}
+.navPart h1 {
+	font-size: 30px;
+	font-weight: bolder;
+}
+.navMenu a,
+.specialLink a {
+	font-size: 20px;
+	margin: 10px 20px;
+	color: ivory;
+}
+.navMenu a:hover,
+.specialLink a:hover {
+	color: #98be2f;
+}

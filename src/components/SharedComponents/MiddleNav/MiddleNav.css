@@ -1,0 +1,18 @@
+.middleNavPart {
+	margin-top: 20px;
+}
+
+.middleNavPart a {
+	width: 100px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 10px 20px;
+	text-align: center;
+    height: 50px;
+}
+
+.middleNavPart a:hover {
+	color: #8ba73b;
+	border-bottom: 2px solid #8ba73b;
+}

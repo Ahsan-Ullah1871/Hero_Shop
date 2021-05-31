@@ -1,0 +1,8 @@
+.headerPart {
+	min-height: 700px;
+	background-image: linear-gradient(315deg, #485461d2 0%, #28313bd7 74%),
+		url(../../../Images/headerbg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,26 @@
+.productCard {
+	background-color: white;
+	padding: 30px;
+	min-height: 400px;
+	width: 300px;
+	margin: 10px 10px;
+}
+.card img {
+	width: 100%;
+}
+.productDescription {
+	font-size: 20px;
+	font-weight: 500;
+}
+.addToCart {
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 17px;
+}
+.addToCart:hover {
+	background-color: #8ba73b;
+	color: white;
+}
+.loveReact {
+	background-color: rgb(224, 216, 216);
+}
