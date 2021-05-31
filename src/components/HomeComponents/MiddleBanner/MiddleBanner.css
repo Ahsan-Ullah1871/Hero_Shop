@@ -1,0 +1,23 @@
+.middleBannerPart {
+	min-height: 400px;
+	background-image: linear-gradient(315deg, #48546188 0%, #28313b85 74%),
+		url(../../../Images/middleBacground.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.middleBannerPart h2 {
+	font-size: 70px;
+	font-family: "Berkshire Swash", cursive;
+}
+.middleBannerPart h5 {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Unlock", cursive;
+}
