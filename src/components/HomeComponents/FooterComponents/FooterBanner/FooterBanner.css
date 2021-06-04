@@ -1,0 +1,7 @@
+.footerBanner {
+	height: 500px;
+	background-image: url(../../../../Images/footerBanner.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

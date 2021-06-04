@@ -6,11 +6,12 @@ import "./ProductsByCategory.css";
 
 const ProductsByCategory = () => {
 	let { categoryName } = useParams();
+	console.log(categoryName);
 	const [products, setProducts] = useState();
 	useEffect(() => {
 		axios({
 			method: "get",
-			url: `http://localhost:5000/getProduct/${categoryName}`,
+			url: `https://sheltered-cove-62018.herokuapp.com/getProduct`,
 			responseType: "stream",
 		}).then(function (response) {
 			setProducts(response.data);

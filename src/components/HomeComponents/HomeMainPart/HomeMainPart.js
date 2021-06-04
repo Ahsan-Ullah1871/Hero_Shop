@@ -4,15 +4,16 @@ import Header from "../Header/Header";
 import ProductsMainPart from "../ProductsComponent/ProductsMainPart/ProductsMainPart";
 import Feature from "../Feature/Feature";
 import MiddleBanner from "../MiddleBanner/MiddleBanner";
+import FooterMainPart from "../FooterComponents/FooterMainPart/FooterMainPart";
 
 const HomeMainPart = () => {
 	return (
 		<div className={styles.HomeMainPart}>
 			<Header />
-			<Feature />
+			{/* <Feature /> */}
 			<ProductsMainPart />
 			<MiddleBanner />
-			
+			<FooterMainPart />
 		</div>
 	);
 };

@@ -11,24 +11,14 @@ const ProductsMainPart = () => {
 			<div className="productsHeader flex justify-center">
 				<h2>
 					<span className="special-text">
-						FEATURED
-					</span>{" "}
-					PRODUCTS
+						PRODUCTS
+					</span>
 				</h2>
 			</div>
-			<div className="productNav ">
-				<MiddleNav />
-            </div>
-            <hr className="divider flex justify-center"/>
+
+			<hr className="divider flex justify-center" />
 			<div className="productsMainPart">
-				<Switch>
-					<Route exact path={path}>
-						<h2>Hello</h2>
-					</Route>
-					<Route path={`${path}/:categoryName`}>
-						<ProductsByCategory />
-					</Route>
-				</Switch>
+				<ProductsByCategory />
 			</div>
 		</div>
 	);

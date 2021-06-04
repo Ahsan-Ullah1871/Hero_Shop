@@ -1,7 +1,15 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { addInCart } from "../../../../Store/Actions/CartAction";
+
 import "./ProductCard.css";
 
 const ProductCard = ({ product }) => {
+	const dispatch = useDispatch();
+	const addToCart = (product) => {
+		dispatch(addInCart(product));
+	};
+
 	return (
 		<>
 			<div className="productCard">
@@ -24,7 +32,12 @@ const ProductCard = ({ product }) => {
 				</div>
 				<div className="productBtn flex items-center justify-between	 mt-5">
 					<div className="addToCart py-2 px-6 rounded-full border border-gray-300">
-						<button className="flex items-center">
+						<button
+							className="flex items-center"
+							onClick={() =>
+								addToCart(product)
+							}
+						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								className="h-5 w-5 mx-2"
